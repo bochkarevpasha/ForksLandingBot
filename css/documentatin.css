@@ -1,0 +1,88 @@
+
+/*DOCUMENTATION*/
+.documentation-block {
+    /*background: linear-gradient(170deg,#4caf50,#378039);*/
+    background-image: url('../images/landing/documentation.png');
+    background-repeat: repeat;
+    background-size: 66%;
+    background-position:center ;
+    margin: -30px 0px 0px 0px;
+
+
+
+}
+
+.doc-block {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    padding-bottom: 180px;
+}
+
+.doc-cont {
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.documentation__info {
+    padding: 65px 12px;
+    text-align: left;
+    min-width: 50%;
+}
+
+.documentation__text {
+    color: black;
+}
+
+.documentation__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.documentation__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.documentation__img {
+    display: none;
+    z-index: 0;
+    padding-top: 0px;
+}
+
+.documentation__button {
+    background-color: rgba(76, 175, 80);
+    
+    padding: 10px 15px;
+    border: 1px solid rgba(76, 175, 80);
+    border-radius: 4px;
+}
+
+.documentation__button:hover {
+    background-color: rgba(76, 175, 79, 0.733);
+    transition: all 0.3s ease 0s;
+}
+
+.doc-btn-text {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: white;
+}
+
+/*MEDIA*/
+@media (max-width: 450px) {
+    .documentation__title {
+        font-size: 35px;
+    }
+
+    .documentation__subtitle {
+        font-size: 16px;
+    }
+}

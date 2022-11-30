@@ -1,0 +1,114 @@
+/*HELLO-BLOCK*/
+.hello-container {
+    display: flex;
+    margin-top: 300px;
+    flex-direction: row;
+}
+.logo-3d-block {
+    position: absolute;
+    /*height: 300px;*/
+}
+
+.logo-3d{
+    transform: translateY(00px) translateX(600px) ;
+    position: static;
+    height: 580px;
+    width: 600px;
+    z-index: 100;
+    background-image: url('../images/landing/mesh.png');
+    background-size: cover;
+}
+
+.hello-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    
+}
+
+.hello-block__title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    z-index: 3;
+}
+
+.hello-block__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+    margin-bottom: 30px;
+    z-index: 3;
+}
+
+.hello-btns {
+    display: flex;
+}
+
+.hello-btn {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 15px 20px;
+}
+
+.hello-btn:hover {
+    background-color: rgba(76, 175, 79, 0.733);
+    transition: all 0.3s ease 0s;
+}
+
+.start-btn {
+    background-color: rgb(76, 175, 80);
+    color: white;
+    box-shadow: 1px 1px 7px gray;
+}
+
+.doc-btn {
+    border: 1px solid rgb(76, 175, 80);
+    color: rgb(76, 175, 80);
+}
+
+.parallax-5 {
+    width: 170px;
+    transform: translate3d(-60px, -490px, 0px);
+}
+
+.parallax-4 {
+    width: 100px;
+    transform: translate3d(500px, -230px, 0px);
+}
+
+.spline-cover {
+    height: 130px;
+    transform: translate3d(500px, 500px, 0px);
+}
+
+.landing-waves {
+    margin-top: -50px;
+}
+
+/*MEDIA*/
+@media (max-width: 640px) {
+    .hello-container {
+        margin-top: 200px;
+    }
+    .hello-content {
+        width: 100%;
+    }
+    .hello-block__title {
+        font-size: 35px;
+        padding-right: 25px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .hello-block__subtitle{
+        padding-right: 25px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+}
